@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  /*
+  background-image: url(./assets/bg-desktop-light.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+  /*background: color image repeat position/size*/
+  background: url(./assets/bg-desktop-light.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid white;
+  margin: auto;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+}
